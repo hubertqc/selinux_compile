@@ -1,4 +1,4 @@
-FROM XXXXXXXXXXXXXXXXXXX
+FROM quay.io/centos/centos:stream8
 
 RUN dnf install -y selinux-policy-devel make
 RUN dnf upgrade -y libsepol
