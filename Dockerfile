@@ -1,4 +1,4 @@
-FROM quay.io/fedora/fedora:37
+FROM quay.io/fedora/fedora:38
 
 RUN dnf install -y selinux-policy-devel make
 RUN dnf upgrade -y libsepol
